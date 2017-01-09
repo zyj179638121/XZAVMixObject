@@ -1,0 +1,7 @@
+XZAVMixObject.xcodeproj/xcuserdata/
+XZAVMixObject.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+XZAVMixObject.xcodeproj/project.xcworkspace/xcuserdata/

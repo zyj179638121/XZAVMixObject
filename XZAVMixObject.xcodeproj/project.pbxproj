@@ -13,6 +13,7 @@
 		A33C0B4F1E235A4500524586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33C0B4D1E235A4500524586 /* Main.storyboard */; };
 		A33C0B511E235A4500524586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A33C0B501E235A4500524586 /* Assets.xcassets */; };
 		A33C0B541E235A4500524586 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33C0B521E235A4500524586 /* LaunchScreen.storyboard */; };
+		A33C0B5E1E235AE300524586 /* XZAVMixObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A33C0B5D1E235AE300524586 /* XZAVMixObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A33C0B501E235A4500524586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A33C0B531E235A4500524586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A33C0B551E235A4500524586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A33C0B5C1E235AE300524586 /* XZAVMixObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZAVMixObject.h; sourceTree = "<group>"; };
+		A33C0B5D1E235AE300524586 /* XZAVMixObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZAVMixObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		A33C0B431E235A4500524586 /* XZAVMixObject */ = {
 			isa = PBXGroup;
 			children = (
+				A33C0B5B1E235AAA00524586 /* XZAVMixObject */,
 				A33C0B471E235A4500524586 /* AppDelegate.h */,
 				A33C0B481E235A4500524586 /* AppDelegate.m */,
 				A33C0B4A1E235A4500524586 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				A33C0B451E235A4500524586 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A33C0B5B1E235AAA00524586 /* XZAVMixObject */ = {
+			isa = PBXGroup;
+			children = (
+				A33C0B5C1E235AE300524586 /* XZAVMixObject.h */,
+				A33C0B5D1E235AE300524586 /* XZAVMixObject.m */,
+			);
+			path = XZAVMixObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A33C0B5E1E235AE300524586 /* XZAVMixObject.m in Sources */,
 				A33C0B4C1E235A4500524586 /* ViewController.m in Sources */,
 				A33C0B491E235A4500524586 /* AppDelegate.m in Sources */,
 				A33C0B461E235A4500524586 /* main.m in Sources */,
